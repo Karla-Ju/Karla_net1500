@@ -1,4 +1,4 @@
-# Karla_net1500
+# AWS Web Application
 <!--to describe the project and what it is about -->
 This is a cloud computing project with the aim to build a serverless web application.
 ## What Does the Serverless Web Application Do?
