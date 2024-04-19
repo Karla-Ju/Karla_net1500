@@ -6,7 +6,7 @@ export const handler = async (event) => {
   try {
     const params = {
       QueueUrl: "Enter the SQS Queue url.",
-      MessageBody: "Hello sqs",
+      MessageBody: "Hello sqs.",
     };
     
     await sqsClient.send(new SendMessageCommand(params));
