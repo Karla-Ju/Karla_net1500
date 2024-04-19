@@ -19,12 +19,7 @@ the SES role are<strong>AmazonSQSFullAccess</strong>, <strong>AWSLambdaBasicExec
 SQS Receive lambda functions.<br></p>
 
 <h2>Using the SES Role</h2>
-<p>For both the SQS Send and SQS Receive lambda functions, you will click on the <strong>Configuration</strong> tab and click on the 
-<strong>Permissions</strong> tab. Next you will press <strong>Edit</strong> in the <strong>Execution role</strong> section to edit the role name.
-The role name will be changed to attach the SES role link from the SES lambda function that was created. This attaches the SES policy that
-was previously created and saves time as it does not require you to attach and repeatedly create policies.<br></p>
+<p>For both the SQS Send and SQS Receive lambda functions, you will click on the <strong>Configuration</strong> tab and click on the <strong>Permissions</strong> tab. Next you will press <strong>Edit</strong> in the <strong>Execution role</strong> section to edit the role name. The role name will be changed to attach the SES role link from the SES lambda function that was created. This attaches the SES policy that was previously created and saves time as it does not require you to attach and repeatedly create policies.<br></p>
 
 <h2>Tips</h2>
-<p>By editing the role name and attaching the SES role, we prevent repetition of the previous steps. Some tips in creating these
-lambda functions are to ensure the region you are creating every single lambda function and policy remian the same. Changing the region
-means you will need to create the same lambda function or policy in another region.</p>
+<p>By editing the role name and attaching the SES role, you can prevent repetition of the previous steps. Some tips in creating these lambda functions are to ensure the region you are creating every single lambda function and policy remain the same. Changing the region means you will need to create the same lambda function or policy in another region.</p>
