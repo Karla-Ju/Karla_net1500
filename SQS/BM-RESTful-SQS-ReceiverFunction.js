@@ -9,7 +9,7 @@ export const handler = async (event) => {
     const params = {
       QueueUrl: queueUrl,
       MaxNumberOfMessages: 10, // Maximum number of messages to retrieve
-      WaitTimeSeconds: 10, // Wait time for long polling (optional)
+      WaitTimeSeconds: 15, // Wait time for long polling (optional)
     };
 
     const data = await sqsClient.send(new ReceiveMessageCommand(params));
