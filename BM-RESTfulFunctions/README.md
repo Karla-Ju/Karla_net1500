@@ -39,4 +39,21 @@ You can:<br>
     <li>Customizable per demand</li>
 </ol></p>
 <h3>How to Set Up SQS</h3>
-<p>To begin you will select Simple Queue Service under the <strong>Services</strong> section in the search bar. To get started you will create a queue by clicking <strong>Create queue</strong>. Name the queue with something that describes its use (i.e. Jane-Mover-Queue). The type to select is <strong>Standard</strong>. You can then continue on to create the queue and review options to see if it is something you would like. For example a key can be entered under the <strong>Tags</strong> section. You can click on <strong>Send and receive messages</strong> to create a message or poll for messages. In order to use a queue you must have SES set up per the instructions from above.</p>
+<p>To begin you will select Simple Queue Service under the <strong>Services</strong> section in the 
+search bar. To get started you will create a queue by clicking <strong>Create queue</strong>. Name
+the queue with something that describes its use (i.e. Jane-Mover-Queue). The type to select is
+<strong>Standard</strong>. You can then continue on to create the queue and review options to see if
+it is something you would like. For example a key can be entered under the <strong>Tags</strong>
+section. You can click on <strong>Send and receive messages</strong> to create a message or poll for
+messages. In order to use a queue you must have SES set up per the instructions from above.</p>
+<h2>What is RESTful API?</h2>
+<p>REST also known as Representational State Transfer is a software architecture that imposes
+conditons on how an API should work. RESTful API is an interface that two computer systems use to
+exchange information securely over the internet.</p>
+<h3>How does RESTful API work?</h3>
+<p>RESTful API starts with a client. This client sends a request to a server. The server only
+understands requests with a specific formatting of the API documentation that the client must follow.
+The server authenticates the client and makes sure the client can make the request. The received
+request is then processed internally by the server. Lastly, the server sends a response to the client.
+This response contains information that indicates if the request was successful and includes 
+information requested by the client.</p>
