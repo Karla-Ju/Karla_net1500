@@ -51,6 +51,7 @@ messages. In order to use a queue you must have SES set up per the instructions 
 conditons on how an API should work. RESTful API is an interface that two computer systems use to
 exchange information securely over the internet.</p>
 <h3>How does RESTful API work?</h3>
+<img src="https://phpenthusiast.com/theme/assets/images/blog/what_is_rest_api.png" jsaction="VQAsE" class="sFlh5c pT0Scc iPVvYb" style="max-width: 2159px; height: 194px; margin: 0px; width: 482px;" alt="What is REST API | PHPenthusiast" jsname="kn3ccd" aria-hidden="false">
 <p>RESTful API starts with a client. This client sends a request to a server. The server only
 understands requests with a specific formatting of the API documentation that the client must follow.
 The server authenticates the client and makes sure the client can make the request. The received
